@@ -23,9 +23,11 @@ brew install node
 # Remove outdated versions from the cellar.
 brew cleanup
 
-npm install -g coffee-script
+# npm install -g coffee-script
 npm install -g grunt-cli
-npm install -g jshint
-npm install -g less
+# npm install -g jshint
+# npm install -g less
+npm install -g gulp-cli
+npm install -g google-closure-compiler
 
 #gem install jekyll
